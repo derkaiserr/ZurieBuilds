@@ -8,7 +8,7 @@
 
 body{
     margin: 0;
-    height: 250rem;
+    height: 243rem;
     min-width: 84.34rem;
     /* font-weight: lighter; */
     font-family:  'Poppins', sans-serif;
@@ -17,13 +17,18 @@ body{
     color: #A997DF;
     padding: 1rem 0 0 0;
     font-size: 22px;
+    
 }
 
+a{
+    text-decoration: none;
+    color: #A997DF;
+}
 
 header{
     margin: 0 5rem;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 0.6fr 3fr 0.7fr;
 }
 header button, .section-one button{
     background-color: #A997DF;
@@ -49,7 +54,7 @@ header button, .section-one button{
 .nav p{
     padding: 1.2rem 0 0 0;
     flex: 1;
-    
+    cursor: pointer;
     width: fit-content;
     text-align: center;
 }
@@ -250,6 +255,7 @@ font-size: 13px;
 }
 #see{
     color: #A997DF;
+    cursor: pointer;
     position: absolute;
     top: 139.5rem;
     left: 70rem;
@@ -265,6 +271,11 @@ font-size: 13px;
     color: #A997DF ;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.fa-circle-chevron-left , .fa-circle-chevron-right , button{
+    cursor: pointer;
+
 }
 .arrow{
     position: absolute;
@@ -329,8 +340,9 @@ font-size: 13px;
 .section-six{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 5rem;
+    padding: 2rem 5rem 0 5rem;
     line-height: 2rem;
+    margin-left: 2.3rem;
 }
 .section-six p:nth-child(1){
     font-weight: 700;
@@ -362,3 +374,6 @@ font-size: 13px;
     margin-top: 5px;
 }
 
+.sixTwo{
+    margin-left: 3rem;
+}
